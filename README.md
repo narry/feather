@@ -253,4 +253,4 @@ B b() {
 Feather avoids the need for writing such factories - by doing the same thing internally: When an instance of A is injected,
 Feather calls A's constructor with the necessary arguments - an instance of B. That instance of B is created the same way 
 \- a simple recursion, this time with no further dependencies \- and the instance of A is created.
-
+ narry
